@@ -1,5 +1,7 @@
 <resources>
+    
     <string name="app_name">Gamebook</string>
+    <string name="my_name">Narendra</string>
     <string name="action">To Do</string>
     <string name="themebw">Theme Black White</string>
     <string name="themewb">Theme White Black</string>
