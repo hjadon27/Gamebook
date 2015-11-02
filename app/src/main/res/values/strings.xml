@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gamebook</string>
+    <string name="action">To Do</string>
+    <string name="themebw">Theme Black White</string>
+    <string name="themewb">Theme White Black</string>
+    <string name="action_gameList">Switch Game</string>
+    <string name="action_reset">Reset</string>
+    <string name="title_activity_tic_tac">Tic Tac Toe</string>
+    <string name="title_activity_memory">Memory</string>
+    <string name="high_score">highscoreMemory</string>
+    <string name="title_activity_mosi_bloom_welcome">MosiBloomWelcome</string>
+
+    <string name="mosi"> Mosi Bloom !
+                                Loading... </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_no_snooze">NoSnooze</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

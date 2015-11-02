@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/themebw"
+        android:title="@string/themebw"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/themewb"
+        android:title="@string/themewb"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_switchgame"
+        android:icon="@drawable/gamesblueicon"
+        android:title="@string/action_gameList"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:id="@+id/action_resetgame"
+        android:icon="@drawable/resetgame"
+        android:title="@string/action_reset"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
