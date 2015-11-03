@@ -5,14 +5,17 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.mosibloom.gametextbook.MyAlert;
 
-public class TicTacActivity extends ActionBarActivity {
+
+public class TicTacActivity extends AppCompatActivity {
 
         int playerX = 0;
         int playerO = 0;
@@ -449,5 +452,37 @@ public class TicTacActivity extends ActionBarActivity {
             getMenuInflater().inflate(R.menu.menu_main, menu);
             return true;
         }
+    @Override
+    public void onBackPressed() {
+        /*AlertDialog.Builder alert = new AlertDialog.Builder(this);
 
+        alert.setTitle("Want to exit? :(");
+        alert.setMessage("Are you sure you want to exit?");
+
+
+        alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+
+                System.exit(0);
+
+
+            }
+        });
+
+        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        alert.show();*/
+
+        MyAlert alert = new MyAlert();
+
+        alert.show(getFragmentManager(), "my alert");
     }
+
+
+}
